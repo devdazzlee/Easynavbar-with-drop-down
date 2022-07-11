@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar{
+    padding-top: 15px;
+    height: 70px;
+    text-align: center;
+    background-color: rgb(93, 179, 255);
+}
+.navbar ul{
+    display: inline-flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.navbar ul li a {
+    text-decoration: none;
+}
+.navbar ul li{
+    width: 150px;
+    margin: 0px 20px;
+    padding: 10px;
+}
+.navbar ul li:hover{
+    border-radius: 5px;
+    background-color: rgb(83, 167, 0);
+}
+.button{
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.button{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+.text1{
+    padding: 5px 10px;
+}
+.fa{
+    margin-right: 14px;
+}
+.sub-navbar1{
+    display: none;
+    
+}
+.navbar ul li:hover .sub-navbar1 {
+    display: block;
+    position: absolute;
+    /* margin-top: 10px; */
+    text-align: center;
+    background-color: purple;
+}
+.navbar ul li:hover .sub-navbar1 ul{
+    display: block;
+    padding-top: 10px;
+    line-height: 40px;
+    position: absolute;
+    background-color: rgb(255, 160, 160);
+    line-height: 20px;
+
+}
+.navbar ul li:hover .sub-navbar1 ul li {
+    width: 200px;
+    padding: 11px;
+    text-align: left;
+    /* background-color: transparent; */
+    border-bottom: 1px solid black;
+}
+.navbar ul li:hover .sub-navbar1 ul li:last-child{
+    border-bottom: none;
+}
+.fa{
+    float: right;
+}
+.sub-div2{
+    display: none;
+}
+.ono1:hover .sub-div2{
+    display: block;
+    position: absolute;
+    margin-left: 150px;
+}
